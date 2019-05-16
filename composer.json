@@ -1,0 +1,17 @@
+{
+  "name": "alexeevdv/string-psr-logger",
+  "autoload": {
+    "psr-4": {
+      "alexeevdv\\psr\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "psr/log": "^1.0"
+  },
+  "require-dev": {
+    "codeception/codeception": "^3.0"
+  }
+}
